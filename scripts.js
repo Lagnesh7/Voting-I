@@ -46,7 +46,7 @@ document.querySelectorAll('.vote-button').forEach(button => {
 // Function to load initial vote counts from the server
 async function loadInitialVotes() {
     try {
-        const response = await fetch('https://cracking-vote-system-i.onrender.com/get-vote', {
+        const response = await fetch('https://challenges-yvxh.onrender.com/get-vote', {
             cache: 'no-cache' // Prevent caching of the GET request
         });
         const data = await response.json();
